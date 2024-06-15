@@ -31,27 +31,25 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Text-Utils",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "TextUtils is a REACT website which analyzes your text. TextUtils gives you a way to analyze your text quickly and efficiently; be it word count or character count.",
   },
   {
-    title: "Web Development for Beginners",
+    title: "NewsHub",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
+      "NewsHub is react news website which uses third party news api to show daily news on the website based on the user's choice categories.",
     url: "https://github.com/microsoft/web-dev-for-beginners",
   },
   {
-    title: "My Resume Site",
+    title: "iNoteBook",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
+      "iNoteBook is MERN stack project to keep daily notes of the users. It uses REST API to perform CRUD operations and also consists of user authentication and password security.",
     url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
   },
   {
-    title: "GitHub Codespaces and github.dev",
-    description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
+    title: "My Portfolio",
+    description: "Portfolio created using React and javascript",
     url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
   },
 ];
