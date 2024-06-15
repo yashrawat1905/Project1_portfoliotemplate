@@ -2,6 +2,7 @@
 html, body {
   height: 100%;
   width: 100%;
+  scroll-behavior: smooth;
   margin: 0;
   padding: 0;
   font-family: Montserrat, sans-serif;
@@ -116,6 +117,67 @@ a:hover {
 img.socialIcon {
   height: 30px;
   width: 30px;
+}
+
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.home-container {
+  text-align: center;
+  padding: 50px;
+}
+
+.scroll-down-arrow {
+  margin-top: 20px;
+  font-size: 3rem;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+
+  40% {
+    transform: translateY(-30px);
+  }
+
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+.education-container {
+  padding: 20px;
+}
+
+.education-grid {
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  display: grid;
+}
+
+.education-cell {
+  text-align: center;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 2px 4px #0000001a;
+}
+
+.education-cell h3 {
+  margin: 10px 0;
+}
+
+.education-cell p {
+  margin: 5px 0;
 }
 
 /*# sourceMappingURL=index.4d663569.css.map */
